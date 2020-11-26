@@ -20,7 +20,6 @@ async function storageFiles(dir,files) {
                 files[filename] = getCurrentHash(filePath);
             }
         });
-        console.log(files);
     }
 }
 module.exports = {
