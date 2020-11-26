@@ -1,4 +1,5 @@
 /* 
+    npm run cssAutoPreFix 启动插件
     1.由于fs.watch 方法在文件改变时会短时间内出发多次 所以我选用 watchFile 和 watch结合使用
     2.watch 用来监控目录，监控文件的新增和删除 watchFile监控文件的改变
     3.使用对象 来存储文件的hash，文件名做为key hash为value，用来对比当前哈希，和上一次改变的哈希是否相同，主要用来避免保存但没有修改的情况，因为用到了autoprefixer
